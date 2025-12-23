@@ -14,8 +14,8 @@ app.use(
       // Add production url ( with domain)
     ],
     credentials :true,
-    methods :["GET","POST","PATCH","DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"]
+    // methods :["GET","POST","PATCH","DELETE"],
+    // allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
 
